@@ -22,7 +22,7 @@ Kotlin/JVM Console dengan IntelliJ IDEA.
 - Main.kt: menu dan input pengguna
 
 ## Cara Menjalankan
-1. git clone https://github.com/USERNAME/TP6_MiniProject_NamaKelompok.git
+1. git clone https://github.com/raphaelgavier-lang/TP6_MiniProject_Gilbert.git
 2. Buka folder proyek di IntelliJ IDEA.
 3. Jalankan fungsi main() pada Main.kt.
 
@@ -37,11 +37,10 @@ Kotlin/JVM Console dengan IntelliJ IDEA.
    Tugas ditambahkan
 
 ## Hasil Pengujian
-12 skenario uji: data normal, ID duplikat, judul kosong, cari, ubah status,
-pilihan menu salah, simpan dan buka ulang, record rusak, dan fitur hapus.
+rencana
 
 ## Pembagian Tugas dan Branch
-Gilly - Semuanya
+Gilly - Semuanya~~~~
 
 ## Riwayat Pengembangan Ringkas
 Branch fitur-menu dan fitur-hapus-tugas digabung ke main. Bug ID berspasi diperbaiki.
