@@ -4,6 +4,7 @@ class TugasService(private val daftar: MutableList<Tugas>) {
         val idBersih = id.trim()
         val judulBersih = judul.trim()
         if (idBersih.isBlank() || judulBersih.isBlank()) return false
+        if (idBersih.contains(";") || judulBersih.contains(";")) return false
         if (daftar.any { it.id.equals(idBersih, ignoreCase = true) }) return false
 
         daftar.add(Tugas(idBersih, judulBersih))
