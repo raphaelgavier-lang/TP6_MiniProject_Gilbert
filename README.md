@@ -1,49 +1,91 @@
+
 # Agenda Tugas Siswa
 
 ## Latar Belakang dan Masalah
-Siswa sering lupa tugas sekolah dan sulit memantau tugas yang sudah atau belum selesai.
+Aplikasi Agenda Tugas Siswa dibuat untuk membantu siswa mengelola dan memantau tugas sekolah agar lebih teratur. Aplikasi ini dapat membantu siswa mencatat tugas dan mengetahui status pengerjaannya.
 
 ## Pengguna dan Tujuan
-Pengguna: siswa SMK. Tujuan: mencatat dan memantau tugas dengan data yang tetap tersimpan.
+Pengguna utama aplikasi ini adalah siswa.
+
+Tujuan aplikasi:
+- Mempermudah pencatatan tugas sekolah.
+- Membantu mencari tugas.
+- Memantau status penyelesaian tugas.
+- Menyimpan data tugas.
 
 ## Fitur Utama
-- Tambah tugas
-- Tampilkan tugas
-- Cari tugas berdasarkan ID
-- Ubah status tugas
-- Simpan dan muat data dari berkas
-- Hapus tugas
+1. Menambahkan tugas baru.
+2. Menampilkan daftar tugas.
+3. Mencari tugas berdasarkan ID.
+4. Mengubah status tugas.
+5. Menghapus tugas.
+6. Menyimpan dan memuat data tugas.
 
 ## Teknologi dan Struktur Berkas
-Kotlin/JVM Console dengan IntelliJ IDEA.
-- Model.kt: data class Tugas
-- TugasService.kt: operasi tugas
-- Penyimpanan.kt: baca dan tulis berkas
-- Main.kt: menu dan input pengguna
+Teknologi:
+- Bahasa pemrograman Kotlin.
+- IntelliJ IDEA.
+- Git dan GitHub.
+
+Struktur berkas:
+- Main.kt: Menu utama aplikasi.
+- Model.kt: Struktur data tugas.
+- TugasService.kt: Pengelolaan data tugas.
+- Penyimpanan.kt: Membaca dan menyimpan data.
+- README.md: Dokumentasi proyek.
 
 ## Cara Menjalankan
-1. git clone https://github.com/raphaelgavier-lang/TP6_MiniProject_Gilbert.git
-2. Buka folder proyek di IntelliJ IDEA.
-3. Jalankan fungsi main() pada Main.kt.
+1. Buka proyek melalui IntelliJ IDEA.
+2. Pastikan seluruh file Kotlin tersedia.
+3. Buka Main.kt.
+4. Jalankan program menggunakan tombol Run.
+5. Pilih menu sesuai kebutuhan.
 
 ## Contoh Penggunaan atau Output
-=== AGENDA TUGAS ===
+Contoh menu aplikasi:
+
+=== AGENDA TUGAS SISWA ===
 1. Tambah tugas
 2. Tampilkan tugas
-   ...
-   Pilihan: 1
-   ID tugas: T01
-   Judul tugas: Mengerjakan jobsheet TP6
-   Tugas ditambahkan
+3. Cari tugas
+4. Ubah status tugas
+5. Hapus tugas
+6. Simpan data
+0. Keluar
 
 ## Hasil Pengujian
-rencana
+Pengujian yang telah dilakukan:
+- Pencarian tugas berhasil.
+- Status tugas berhasil ditampilkan.
+- Penghapusan tugas berhasil.
+- Penyimpanan data berhasil.
+- Program berhasil ditutup.
+
+Pengujian lainnya dilakukan untuk memastikan seluruh fitur berjalan dengan baik.
 
 ## Pembagian Tugas dan Branch
-Gilly - Semuanya~~~~
+Pengembangan menggunakan Git dan GitHub.
+
+Branch yang digunakan:
+- main
+- fitur-menu
+- fitur-informasi
 
 ## Riwayat Pengembangan Ringkas
-Branch fitur-menu dan fitur-hapus-tugas digabung ke main. Bug ID berspasi diperbaiki.
+- Menyiapkan struktur awal proyek.
+- Menambahkan README dan .gitignore.
+- Menambahkan nama proyek.
+- Membuat menu utama aplikasi.
+- Menambahkan informasi aplikasi.
+- Mengembangkan fitur pengelolaan agenda tugas.
 
 ## Keterbatasan dan Rencana Pengembangan
-Belum ada tenggat waktu dan ubah judul. Rencana: tenggat, ubah judul, filter status.
+Keterbatasan:
+- Aplikasi masih berbasis Kotlin Console.
+- Belum menggunakan database.
+- Belum memiliki sistem login pengguna.
+
+Rencana pengembangan:
+- Menambahkan fitur tanggal tenggat tugas.
+- Mengembangkan tampilan aplikasi.
+- Menggunakan database untuk penyimpanan data.
